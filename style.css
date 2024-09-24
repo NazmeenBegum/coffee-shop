@@ -1,0 +1,291 @@
+
+
+#background{
+    background: url(first.avif);
+    padding:20px;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+      
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+a{
+    color:white;
+    font-size: 1.5rem;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#coffee{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 10px;
+
+}
+h3{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#button{
+    width: 8rem;
+    height:3rem;
+    color:white;
+    border:1px solid white;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#button:hover{
+    background-color: antiquewhite;
+}
+
+p{
+    display: inline;
+    
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#second_part{
+    padding-top:50px;
+}
+
+#cafe_menu{
+    display: flex;
+    flex-wrap: wrap;
+     align-items: center;
+    justify-content: space-around;
+    padding:40px;
+}
+
+#espresso_img{
+    border-radius: 20px;
+    display: flex;  
+}
+#third_part{
+    background:url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_1280.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+}
+
+
+.pics{
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 30px;
+   align-items: center;
+   
+
+   
+}
+#img{
+    border-radius: 30px;
+}
+#forth_part{
+    background: url(bg.jpg );
+    background-size: cover;
+    height: 60vh;
+    padding: 60px;
+    
+}
+
+#fifth_part{
+    height: 60vh;
+     
+   
+}
+#num{
+    color: rgb(247, 199, 127);
+    font-size: 40px;  
+}
+#text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center; 
+}
+#sixth_part{
+    background: url(bg6.avif);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 80px;  
+    background-position: fixed;
+}
+
+#items{
+    display: flex;
+}
+#seventh_part{
+    text-align: center;
+
+}
+#cups{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+#eighth_part{
+    background: url(bg6.avif);
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 50px;
+
+}
+#nineth_part{
+    background: url(bglast.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#white{
+    color: white;
+    
+}
+h2{
+    color: black;
+}
+#naaz{
+    height: 40px;
+    width: 300px;
+    background-color:black;
+    
+    
+}
+h4{
+    width: 150px;
+    height: 30px;
+    border: 1.5px solid white;
+    background-color: rgb(94, 91, 87);
+    color: white;
+}
+#color{
+    color: white;
+}
+#about{
+background: url(picA.jpg);
+height: 100vh;
+background-size: cover;
+}
+#can{
+    background: url(contact.webp);
+    height: 100vh;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+#size{
+    width: 300px;
+    height: 50px;
+    border: 1.5px solid black;
+    background-color: rgb(247, 230, 188);
+}
+#chat{
+    width: 300px;
+    height: 120px;
+    border: 1.5px solid black;
+    background-color: rgb(247, 230, 188);
+}
+#send{
+    width: 100px;
+    height: 40px;
+    border: 1.5px solid black;
+    background-color: rgb(247, 230, 188);
+    text-align: center;
+    justify-content: center;
+}
+#price{
+    height: 100vh;
+    background-size: cover;
+    background-color: bisque;
+    display: flex;
+    padding-top: 60px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+#add{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(226, 148, 52);
+    margin-left: 40PX;
+}
+#add :hover{
+    background-color: rgb(226, 59, 59);
+}
+#cart{
+    height: 100vh;
+    background: url(last.jpg);
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width:1220px){
+
+    #coffee_menu{
+        display: grid;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #pics{
+        display: grid;
+        flex-wrap: wrap;
+        display: flex;
+
+    
+    }
+    #text{
+        display: grid;
+        flex-wrap: wrap;
+        display: flex;
+    
+    }
+    #items{
+        display: grid;
+        flex-wrap: wrap;
+        display: flex;
+    
+    }
+    #cups{
+        display: flex;
+        flex-wrap: wrap;
+        display: grid;
+        
+    }
+    #price{
+        display: grid;
+       flex-wrap: wrap;
+        display: flex;
+      
+    }
+    
+}
